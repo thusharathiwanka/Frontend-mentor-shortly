@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,YAAY,CAAC;EACX,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,MAAM;CACnB;;AAED,AAAA,YAAY,CAAC,CAAC,CAAC;EACb,KAAK,EAAE,OAAkB;CAC1B",
+    "sources": [
+        "../app/styles/style.scss",
+        "../app/styles/_global.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
