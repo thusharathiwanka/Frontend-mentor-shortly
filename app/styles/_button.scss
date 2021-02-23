@@ -6,6 +6,9 @@
   padding: $padding;
   border-radius: $border-radius;
   transition: opacity 0.3s ease-in-out;
+  outline: none;
+  border: none;
+  cursor: pointer;
 
   &:hover {
     opacity: 0.6;
