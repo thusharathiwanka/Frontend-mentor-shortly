@@ -1,3 +1,17 @@
+/* resetting default styles */
+html {
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
