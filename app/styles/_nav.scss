@@ -1,0 +1,26 @@
+@import "button";
+
+header {
+  @include inner-body-margin;
+  @include flex;
+  min-height: 15vh;
+
+  img {
+    padding-right: 2rem;
+  }
+
+  .services {
+    @include flex;
+  }
+
+  a {
+    margin-left: 2.5rem;
+    padding: 0.2rem;
+    color: $greyish-violet;
+    font-weight: $header-font-weight;
+  }
+
+  .cta {
+    @include cta-style;
+  }
+}

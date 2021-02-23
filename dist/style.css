@@ -10,6 +10,15 @@ html {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* variables */
+/* mixins */
+/* global styles */
+a {
+  text-decoration: none;
+  white-space: nowrap;
 }
 
 .attribution {
@@ -19,5 +28,185 @@ html {
 
 .attribution a {
   color: #3e52a3;
+}
+
+/* resetting default styles */
+html {
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* variables */
+/* mixins */
+/* global styles */
+a {
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+/* resetting default styles */
+html {
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* variables */
+/* mixins */
+/* global styles */
+a {
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+header {
+  max-width: 1204px;
+  padding: 0 2rem;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 15vh;
+}
+
+header img {
+  padding-right: 2rem;
+}
+
+header .services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header a {
+  margin-left: 2.5rem;
+  padding: 0.2rem;
+  color: #9e9aa7;
+  font-weight: 700;
+}
+
+header .cta {
+  background: #2acfcf;
+  color: white;
+  padding: 0.6rem 1.5rem;
+  border-radius: 24px;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+header .cta:hover {
+  opacity: 0.6;
+}
+
+.hero {
+  max-width: 1600px;
+  min-height: 60vh;
+  margin: 0 auto;
+  background-image: url("../../images/illustration-working.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.hero .hero-content {
+  max-width: 1204px;
+  padding: 0 2rem;
+  margin: 0 auto;
+  position: relative;
+  min-height: 58vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero .text-content {
+  max-width: 40rem;
+}
+
+.hero h1 {
+  font-size: 4.5rem;
+  line-height: 1.1;
+  color: #232127;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #9e9aa7;
+  max-width: 30rem;
+  line-height: 1.5;
+}
+
+.hero a {
+  background: #2acfcf;
+  color: white;
+  padding: 0.8rem 3rem;
+  border-radius: 24px;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+.hero a:hover {
+  opacity: 0.6;
+}
+
+.hero form {
+  left: 0%;
+  top: 0%;
+  position: absolute;
 }
 /*# sourceMappingURL=style.css.map */

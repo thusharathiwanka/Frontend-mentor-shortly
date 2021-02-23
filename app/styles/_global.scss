@@ -9,6 +9,50 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* variables */
+$primary-cyan: hsl(180, 66%, 49%);
+$primary-dark-violet: hsl(257, 27%, 26%);
+
+$secondary-red: hsl(0, 87%, 67%);
+
+$grey: hsl(0, 0%, 75%);
+$greyish-violet: hsl(257, 7%, 63%);
+$very-dark-blue: hsl(255, 11%, 22%);
+$very-dark-violet: hsl(260, 8%, 14%);
+
+$header-font-size: 4.5rem;
+$sub-header-font-size: 2rem;
+$para-font-size: 1.2rem;
+$para-line-height: 1.2rem;
+
+$header-font-weight: 700;
+$sub-header-font-weight: 500;
+
+/* mixins */
+@mixin outer-body-margin {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@mixin inner-body-margin {
+  max-width: 1204px;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+
+@mixin flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* global styles */
+a {
+  text-decoration: none;
+  white-space: nowrap;
 }
 
 .attribution {

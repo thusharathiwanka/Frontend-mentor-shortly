@@ -1,0 +1,44 @@
+.hero {
+  max-width: 1600px;
+  min-height: 60vh;
+  margin: 0 auto;
+  background-image: url("../../images/illustration-working.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+
+  .hero-content {
+    @include inner-body-margin;
+    position: relative;
+    min-height: 58vh;
+    @include flex;
+  }
+
+  .text-content {
+    max-width: 40rem;
+  }
+
+  h1 {
+    font-size: $header-font-size;
+    line-height: 1.1;
+    color: $very-dark-violet;
+  }
+
+  p {
+    font-size: $para-font-size;
+    color: $greyish-violet;
+    max-width: 30rem;
+    line-height: 1.5;
+  }
+
+  a {
+    @include cta-style(24px, 0.8rem 3rem);
+    display: inline-block;
+    margin-top: 2rem;
+  }
+
+  form {
+    left: 0%;
+    top: 0%;
+    position: absolute;
+  }
+}
