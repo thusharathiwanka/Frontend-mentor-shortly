@@ -34,12 +34,12 @@ $sub-header-font-weight: 500;
 
 /* mixins */
 @mixin outer-body-margin {
-  max-width: 1440px;
+  width: 1440px;
   margin: 0 auto;
 }
 
 @mixin inner-body-margin {
-  max-width: 1204px;
+  width: 1204px;
   padding: 0 2rem;
   margin: 0 auto;
 }
@@ -56,9 +56,16 @@ a {
   white-space: nowrap;
 }
 
+ul {
+  list-style: none;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
+  background: $very-dark-violet;
+  padding: 1rem 0;
+  color: white;
 }
 
 .attribution a {
