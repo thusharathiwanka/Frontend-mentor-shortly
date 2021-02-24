@@ -19,7 +19,9 @@ header {
     color: $greyish-violet;
     font-weight: $header-font-weight;
     transition: color 0.3s ease-in-out;
+  }
 
+  a:not(.cta) {
     &:hover {
       color: $very-dark-violet;
     }
